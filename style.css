@@ -1,0 +1,22 @@
+
+/* To get rid of white spaces on every side of the page*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+
+header {
+	background-image: url("img/background.jpg");
+	background-size: cover;
+	background-position: 50%;
+	height: 90vh;
+	position: relative;
+}
+
+body{
+	background-color: rgb(54, 58, 64);
+	
+}
