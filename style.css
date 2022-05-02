@@ -8,14 +8,6 @@
 }
 
 
-header {
-	background-image: url("img/background.jpg");
-	background-size: cover;
-	background-position: 50%;
-	height: 90vh;
-	position: relative;
-}
-
 body{
 	background-color: rgb(54, 58, 64);
 	
@@ -29,10 +21,13 @@ nav{
 	padding: 0 1rem;
 	height: 60px;
 	background-color: #000;
+	border: solid black;
+	border-radius: 5px;
 }
 
 nav ul{
 	display: flex;
+	margin-right: 5px;
 }
 
 nav ul li{
@@ -48,5 +43,69 @@ nav ul li a{
 }
 
 a.active{
-	color: aqua;
+	color: #00ffff;
 }
+.active{
+	font-size: 50px;
+	font-style: italic;
+	margin-top: 13px;
+	
+
+}
+article{
+	height: 30px;
+}
+.title{
+	margin-top: 150px;
+	font-size: 40px;
+	font-weight: 100;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	color: #00ffff;
+	text-align: center;
+}
+.brief{
+	text-align: center;
+	border: solid slategrey;
+	border-radius: 10px;
+	box-shadow: cadetblue;
+	padding-right: 10px;
+}
+.image{
+	margin-right: 2px;
+}
+#tables{
+	height: 50px;
+}
+#footer{
+	background-color: #000;
+	border: solid black;
+	height: 40px;
+	color: #fff;
+	text-align: center;
+	padding: 15 15 15 15;
+	border: solid black;
+	border-radius: 3px;
+
+}
+.row {
+	display: flex;
+  }
+  
+  .column {
+	flex: 25%;
+	padding: 5px;
+	border: solid grey;
+	border-radius: 8px;
+	box-shadow: #000;
+	margin-top: 5px;
+  }
+  h3{
+	  font-size: 80px;
+	  font-style: italic;
+	  font-stretch: expanded;
+	  font-family: Verdana, Geneva, Tahoma, sans-serif;
+	  color: #00ffff;
+	  text-shadow: #000;
+	  text-align: center;
+  }
+  
